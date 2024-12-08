@@ -46,122 +46,122 @@ document.addEventListener("DOMContentLoaded", () => {
         "To create reusable components",
       ],
       correctAnswer: 1,
-    },
-    {
-      question: "Which lifecycle method is called after the component is updated?",
-      options: [
-        "componentDidMount",
-        "componentDidUpdate",
-        "shouldComponentUpdate",
-        "getDerivedStateFromProps",
-      ],
-      correctAnswer: 1,
-    },
-    {
-      question: "How does React handle asynchronous rendering?",
-      options: [
-        "Through Fiber architecture",
-        "By using callback props",
-        "With the help of Context API",
-        "Via componentDidCatch",
-      ],
-      correctAnswer: 0,
-    },
-    {
-      question: "What is the difference between props and state in React?",
-      options: [
-        "Props are immutable; state is mutable",
-        "Props are local; state is global",
-        "Props are asynchronous; state is synchronous",
-        "Props are temporary; state is persistent",
-      ],
-      correctAnswer: 0,
-    },
-    {
-      question: "What does useReducer hook provide?",
-      options: [
-        "An alternative to state management with reducers",
-        "A way to access global context",
-        "A tool for creating custom hooks",
-        "A method for lifecycle handling",
-      ],
-      correctAnswer: 0,
-    },
-    {
-      question: "What happens if you update the state directly in React?",
-      options: [
-        "It triggers a re-render of the component",
-        "It causes errors in lifecycle methods",
-        "It does not update the component UI",
-        "It removes props from child components",
-      ],
-      correctAnswer: 2,
-    },
-    {
-      question: "What is the purpose of React's Suspense component?",
-      options: [
-        "To catch errors in rendering",
-        "To delay rendering until conditions are met",
-        "To manage routing transitions",
-        "To optimize component performance",
-      ],
-      correctAnswer: 1,
-    },
-    {
-      question: "What does the React.StrictMode component do?",
-      options: [
-        "Warns about unsafe lifecycle methods",
-        "Provides error boundaries",
-        "Handles conditional rendering",
-        "Improves server-side rendering",
-      ],
-      correctAnswer: 0,
-    },
-    {
-      question: "What is the significance of defaultProps in React?",
-      options: [
-        "To handle missing props with default values",
-        "To enforce prop types",
-        "To manage state across components",
-        "To implement conditional rendering",
-      ],
-      correctAnswer: 0,
-    },
-    {
-      question: "Which hook would you use to avoid frequent API calls on component renders?",
-      options: ["useEffect", "useMemo", "useCallback", "useReducer"],
-      correctAnswer: 1,
-    },
-    {
-      question: "What is the virtual DOM in React?",
-      options: [
-        "A real copy of the browser's DOM",
-        "An abstraction for efficient DOM updates",
-        "A cache for components",
-        "A tool for debugging UI elements",
-      ],
-      correctAnswer: 1,
-    },
-    {
-      question: "Which statement about React keys is true?",
-      options: [
-        "Keys must be globally unique",
-        "Keys are necessary for performance optimization",
-        "Keys are passed to child components as props",
-        "Keys should be integers only",
-      ],
-      correctAnswer: 1,
-    },
-    {
-      question: "How does React's useRef hook work?",
-      options: [
-        "It persists mutable values across renders",
-        "It provides access to state values",
-        "It triggers re-renders when updated",
-        "It stores component props",
-      ],
-      correctAnswer: 0,
-    },
+     },
+    // {
+    //   question: "Which lifecycle method is called after the component is updated?",
+    //   options: [
+    //     "componentDidMount",
+    //     "componentDidUpdate",
+    //     "shouldComponentUpdate",
+    //     "getDerivedStateFromProps",
+    //   ],
+    //   correctAnswer: 1,
+    // },
+    // {
+    //   question: "How does React handle asynchronous rendering?",
+    //   options: [
+    //     "Through Fiber architecture",
+    //     "By using callback props",
+    //     "With the help of Context API",
+    //     "Via componentDidCatch",
+    //   ],
+    //   correctAnswer: 0,
+    // },
+    // {
+    //   question: "What is the difference between props and state in React?",
+    //   options: [
+    //     "Props are immutable; state is mutable",
+    //     "Props are local; state is global",
+    //     "Props are asynchronous; state is synchronous",
+    //     "Props are temporary; state is persistent",
+    //   ],
+    //   correctAnswer: 0,
+    // },
+    // {
+    //   question: "What does useReducer hook provide?",
+    //   options: [
+    //     "An alternative to state management with reducers",
+    //     "A way to access global context",
+    //     "A tool for creating custom hooks",
+    //     "A method for lifecycle handling",
+    //   ],
+    //   correctAnswer: 0,
+    // },
+    // {
+    //   question: "What happens if you update the state directly in React?",
+    //   options: [
+    //     "It triggers a re-render of the component",
+    //     "It causes errors in lifecycle methods",
+    //     "It does not update the component UI",
+    //     "It removes props from child components",
+    //   ],
+    //   correctAnswer: 2,
+    // },
+    // {
+    //   question: "What is the purpose of React's Suspense component?",
+    //   options: [
+    //     "To catch errors in rendering",
+    //     "To delay rendering until conditions are met",
+    //     "To manage routing transitions",
+    //     "To optimize component performance",
+    //   ],
+    //   correctAnswer: 1,
+    // },
+    // {
+    //   question: "What does the React.StrictMode component do?",
+    //   options: [
+    //     "Warns about unsafe lifecycle methods",
+    //     "Provides error boundaries",
+    //     "Handles conditional rendering",
+    //     "Improves server-side rendering",
+    //   ],
+    //   correctAnswer: 0,
+    // },
+    // {
+    //   question: "What is the significance of defaultProps in React?",
+    //   options: [
+    //     "To handle missing props with default values",
+    //     "To enforce prop types",
+    //     "To manage state across components",
+    //     "To implement conditional rendering",
+    //   ],
+    //   correctAnswer: 0,
+    // },
+    // {
+    //   question: "Which hook would you use to avoid frequent API calls on component renders?",
+    //   options: ["useEffect", "useMemo", "useCallback", "useReducer"],
+    //   correctAnswer: 1,
+    // },
+    // {
+    //   question: "What is the virtual DOM in React?",
+    //   options: [
+    //     "A real copy of the browser's DOM",
+    //     "An abstraction for efficient DOM updates",
+    //     "A cache for components",
+    //     "A tool for debugging UI elements",
+    //   ],
+    //   correctAnswer: 1,
+    // },
+    // {
+    //   question: "Which statement about React keys is true?",
+    //   options: [
+    //     "Keys must be globally unique",
+    //     "Keys are necessary for performance optimization",
+    //     "Keys are passed to child components as props",
+    //     "Keys should be integers only",
+    //   ],
+    //   correctAnswer: 1,
+    // },
+    // {
+    //   question: "How does React's useRef hook work?",
+    //   options: [
+    //     "It persists mutable values across renders",
+    //     "It provides access to state values",
+    //     "It triggers re-renders when updated",
+    //     "It stores component props",
+    //   ],
+    //   correctAnswer: 0,
+    // },
     {
       question: "What is the purpose of React Portals?",
       options: [
@@ -301,10 +301,15 @@ questions.forEach((question) => {
     app.innerHTML = `
      <div class="quiz-container">
        <div class="results">
-        <h2>${percentage >= 60 ? "🎉 You’ve Got the Right Props!" : "📚 Don’t Let This Hook You Down!"}</h2>
-        <p>Your Score: ${score} / ${questions.length}</p>
-       <p>Percentage: ${percentage}%</p>
+        <h2 class="text-3xl font-semibold">${percentage >= 60 ? "🎉 You’ve Got the Right Props!" : "📚 Don’t Let This Hook You Down!"}</h2>
+        <p class="text-xl font-semibold">Your Score: <span class="text-lg font-semibold">${score} / ${questions.length}</span></p>
+       <p class="text-xl font-semibold">Percentage: <span class="text-lg font-semibold">${percentage}%</span> </p>
+      <div class="flex items-center gap-4">
       <button class="restart-btn">Restart Quiz</button>
+      <a href="index.html">
+        <button  class="home-btn"> <span class="truncate">Dashboard</span> </button>
+      </a>
+      </div>
      </div>
    </div>
     `;
