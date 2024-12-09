@@ -9,4 +9,5 @@ A fun and interactive React quiz app to test your knowledge on React concepts. T
 - **Progress Bar**: Track your progress as you go through the questions.
 - **Confetti Celebration**: Enjoy confetti when you achieve a high score (70% or above)!
 - **Restart Option**: Restart the quiz at any time to improve your score.
+Dashboard Design
 
